@@ -8,7 +8,7 @@ RUN \
     curl -s "https://get.sdkman.io" | bash; \
     source "$HOME/.sdkman/bin/sdkman-init.sh"; \
     # Install Maven
-    sdk install maven 3.6.3; \
+    sdk install maven 3.8.1; \
     # Install GraalVM Native Image
     gu install native-image;
 
